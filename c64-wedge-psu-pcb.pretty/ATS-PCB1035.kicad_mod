@@ -1,4 +1,4 @@
-(footprint "ATS-PCB1036"
+(footprint "ATS-PCB1035"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -98,7 +98,7 @@
 		)
 		(fill none)
 		(layer "F.SilkS")
-		(uuid "8e5a3c72-2317-422e-9167-8578cbafe43e")
+		(uuid "5225c1b0-a7c4-4535-8a55-65f669866342")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
@@ -113,7 +113,7 @@
 		)
 	)
 	(pad "1" thru_hole circle
-		(at -12.3 3.9)
+		(at -11.525 0.25)
 		(size 5 5)
 		(drill 2.5)
 		(layers "*.Cu" "*.Mask")
@@ -121,14 +121,14 @@
 		(uuid "e1174f89-92fa-4647-9df7-9634a3c991f6")
 	)
 	(pad "2" thru_hole circle
-		(at 12.3 3.9)
+		(at 11.525 0.25)
 		(size 5 5)
 		(drill 2.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "f8f3aff3-7032-4a8c-ab01-f829415e93bf")
 	)
-	(model "${KIPRJMOD}/3D/ATS-PCB1036.stp"
+	(model "${KIPRJMOD}/3D/ATS-PCB1035.stp"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -141,7 +141,7 @@
 	)
 	(model "${KIPRJMOD}/3D/92000A122_M3x12_Screw.stp"
 		(offset
-			(xyz 0 8.65 17.78)
+			(xyz 0 8.65 19)
 		)
 		(scale
 			(xyz 1 1 1)
@@ -152,7 +152,7 @@
 	)
 	(model "${KIPRJMOD}/3D/91828A211_M3_HexNut.stp"
 		(offset
-			(xyz 0 2.6 17.78)
+			(xyz 0 2.6 19)
 		)
 		(scale
 			(xyz 1 1 1)
